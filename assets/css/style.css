@@ -1,0 +1,41 @@
+/*Imported text font from google fonts - credit goes to Cadson Demak @ Principal design*/
+@import url('https://fonts.googleapis.com/css2?family=Kanit:wght@300;400&family=Lato:wght@300&family=Oswald&display=swap');
+
+/*Styling for the header element and those elements nested within including the nav and h2 elements*/
+/*general styling for the nav bar*/
+.nav-bar{
+    margin:0;
+    padding:0;
+    float:left;
+}
+/*style for the list elemets containing the <a> that will be used to move through the pages*/
+.nav-bar li{
+    list-style-type:none;  
+    float:left;
+    margin-right:30px;
+    font-size:120%;
+    font-family:kanit, sans-serif;
+    color:black;
+    border-style:solid;
+    border-radius:10%;
+    padding:4px;
+}
+.nav-bar a{
+    text-decoration:none;
+    color:black;
+}
+/*responsive styling for nav elements*/
+.nav-bar a:hover{
+    text-decoration:underline solid black;
+}
+.active{
+    text-decoration:underline solid black;
+}
+
+/*Style added for the title/logo of the page*/
+#title{
+    float:left;
+    width:100%;
+    margin-left:40px;
+    font-family:kanit, sans-serif;
+}
