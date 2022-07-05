@@ -2,21 +2,25 @@
 @import url('https://fonts.googleapis.com/css2?family=Kanit:wght@300;400&family=Lato:wght@300&family=Oswald&display=swap');
 
 body{
-    background-image:url("../images/mountain-at-dawn.jpg");
+    background-image:url("../images/background-mountain.jpg");
     background-repeat:no-repeat;
-    max-width:50%;
-    max-height:1200px;
-    background-size:cover;
+    max-width:80%;
+    max-height:1200%;
+    background-size:contain;
     overflow:hidden;
     background-attachment:fixed;
 }
 
 /*Styling for the header element and those elements nested within including the nav and h2 elements*/
 /*general styling for the nav bar*/
+#nav-logo{
+    background-color:white;
+}
 .nav-bar{
     margin:0;
     padding:0;
     float:left;
+    
 }
 /*style for the list elemets containing the <a> that will be used to move through the pages*/
 .nav-bar li{
@@ -48,4 +52,17 @@ body{
     width:100%;
     margin-left:40px;
     font-family:kanit, sans-serif;
+}
+
+/*Style for the <fieldset> containing the bulk of the content for the home page*/
+.content-box{
+    width:80%;
+    margin-right:20%;
+    margin-left:20%;
+    float:none;
+    background-color:aliceblue;
+}
+
+#socials{
+    background-color:grey;
 }
