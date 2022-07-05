@@ -62,8 +62,10 @@ body{
     margin-left:20%;
     float:none;
     background-color:aliceblue;
-    height:800px;
-    
+    height:800px;   
+}
+.content-box *{
+    font-family:kanit, sans-serif;
 }
 
 /*style for the video element*/
@@ -74,7 +76,7 @@ body{
     margin-right:10%;
 }
 iframe{
-    margin-top:150px;
+    margin-top:50px;
 }
 
 
