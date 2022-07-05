@@ -58,7 +58,6 @@ body{
 
 /*Style for the <fieldset> containing the bulk of the content for the home page*/
 .content-box{
-    max-width:80%;
     margin-right:20%;
     margin-left:20%;
     float:none;
@@ -67,9 +66,20 @@ body{
     
 }
 
+/*style for the video element*/
+#video{
+    height:fit-content;
+    display:inline;
+    margin-left:10%;
+    margin-right:10%;
+}
+iframe{
+    margin-top:150px;
+}
 
 
 
+/*style of the footer and the social links contained within.*/
 #social-links{
     height:fit-content;
     width:100%;
