@@ -107,3 +107,23 @@ iframe{
     color:white;
     text-decoration:none;
 }
+
+/*responsive elements for phone and tablets*/
+/*phone styling*/
+@media screen and (max-width:950px){
+
+    #title{
+        font-size:110%;
+    }
+    .nav-bar li{
+        margin-right:10px;
+        font-size:70%;
+    }
+    iframe{
+        max-height:200px;
+    }
+    #social-links li{
+        font-size:100%;
+        margin-left:0;
+    }
+}
