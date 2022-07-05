@@ -99,7 +99,8 @@ iframe{
     font-size:120%;
     font-family:kanit, sans-serif;
     padding:4px;
-    margin-left:17%;
+    margin-left:10%;
+    margin-right:10%;
     display:inline;
     padding-left:10px;
 }
@@ -125,6 +126,8 @@ iframe{
     #social-links li{
         font-size:100%;
         display:inline;
-        margin-right:0;
+        margin-left:10%;
+        margin-right:10%;
+        text-align:center;
     }
 }
