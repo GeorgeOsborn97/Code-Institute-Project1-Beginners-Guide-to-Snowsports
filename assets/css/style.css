@@ -62,7 +62,8 @@ body{
     margin-left:20%;
     float:none;
     background-color:aliceblue;
-    height:800px;   
+    height:800px; 
+    max-width:750px;  
 }
 .content-box *{
     font-family:kanit, sans-serif;
