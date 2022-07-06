@@ -129,4 +129,45 @@ iframe{
         margin-right:5%;
         
     }
+    body{
+        background-image:none;
+    }
+    #home-page{
+        background-image:url("../images/background-mountain-page1.jpg");
+        background-repeat:no-repeat;
+        max-width:100vw;
+        min-height:100vh;
+        background-size:cover;
+        overflow-x:hidden;
+        margin:0;   
+    }
+    #page2{
+        background-image:url("../images/background-mountain-page2.jpg");
+        background-repeat:no-repeat;
+        max-width:100vw;
+        min-height:100vh;
+        background-size:cover;
+        overflow-x:hidden;
+        margin:0;   
+    }
+    #page3{
+        background-image:url("../images/background-mountain-page3.jpg");
+        background-repeat:no-repeat;
+        max-width:100vw;
+        min-height:100vh;
+        background-size:cover;
+        overflow-x:hidden;
+        margin:0;   
+    }
+    #page4{
+        background-image:url("../images/background-mountain-page4.jpg");
+        background-repeat:no-repeat;
+        max-width:100vw;
+        min-height:100vh;
+        background-size:cover;
+        overflow-x:hidden;
+        margin:0;   
+    }
+
 }
+
