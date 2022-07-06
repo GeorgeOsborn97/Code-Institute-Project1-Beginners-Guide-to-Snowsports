@@ -45,7 +45,7 @@ body{
     text-decoration:underline solid black;
 }
 .active{
-    text-decoration:underline solid black;
+    background-color:aliceblue;
 }
 
 /*Style added for the title/logo of the page*/
@@ -54,6 +54,13 @@ body{
     width:100%;
     margin-left:40px;
     font-family:kanit, sans-serif;
+}
+#title a{
+    text-decoration:none;
+    color:black;
+}
+#title a:hover{
+    color:aliceblue;
 }
 
 /*Style for the <fieldset> containing the bulk of the content for the home page*/
@@ -75,8 +82,24 @@ body{
 /*style for the form boxes in page 4*/
 form input{
     display:inline;
+    border-style:solid;
+    border-width:2px; 
 }
-
+textarea{
+    border-style:solid;
+    border-width:2px; 
+}
+form button{
+    font-size:larger;
+    margin-right:5%;
+}
+form button:hover{
+    transform:scale(1.5);
+    color:green;
+    clear:both;
+    border-style:solid;
+    border-width:1px;
+}
 /*style for the video element*/
 #video{
     height:fit-content;
