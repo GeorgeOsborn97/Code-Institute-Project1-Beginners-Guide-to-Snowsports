@@ -127,7 +127,8 @@ iframe{
        
         margin-left:5%;
         margin-right:5%;
-        
+       
+    /*Responsive backgrounds to be applied across pages on mobile devices*/    
     }
     body{
         background-image:none;
