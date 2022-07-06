@@ -75,7 +75,14 @@ body{
 .content-box *{
     font-family:kanit, sans-serif;
 }
+#intro{
+    margin-right:10%;
+    margin-left:10%;
+}
 #page2-content{
+    height:1200px;
+}
+#page1-content{
     height:1200px;
 }
 
