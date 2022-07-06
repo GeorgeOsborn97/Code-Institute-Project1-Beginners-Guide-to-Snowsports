@@ -31,7 +31,7 @@
 
     <!--The main portion of informarion is stored within the fieldset element, this first page contains common FAQ's amd their answers.-->
 
-    <fieldset class="content-box">
+    <fieldset class="content-box" id="page4-content">
         <section id="intro">
             <h3>Introduction</h3>
             <p>
@@ -40,24 +40,18 @@
             </p>
         </section>
         <section>
-            <article id="faq">
-                <h3>FAQ's</h3>
-                <ul>
-                    <li>Q1:answer</li>
-                    <li>Q2:answer</li>
-                    <li>Q3:answer</li>
-                    <li>Q5:answer</li>
-                    <li>Q:answer</li>
-                </ul>
-                <footer id="link-to-ask-us">
-                    <h4>Q not answered?</h4>
-                    <a href="ask-us.html">Link to ask us page</a>
-                </footer>
-            </article>
-        </section>
-
-        <section id="video">
-            <iframe width="80%" height="315" src="https://www.youtube.com/embed/NpEaa2P7qZI" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"  allowfullscreen><p>Message if video is unsupported</p></iframe>
+            <form action="#" method="post">
+                <label for="name">Name:</label>
+                <input name="name" type="text">
+                <label for="email">Email address:</label>
+                <input name="email" type="email">
+                <label for="topic">Topic:</label>
+                <input name="topic" type="text">
+                <label for="question">What would you like to know?</label>
+                <textarea name="question" cols="100" rows="10"></textarea>
+                <button type="submit">Submit</button>
+                <button type="reset">reset</button>
+            </form>          
         </section>
     </fieldset>
     

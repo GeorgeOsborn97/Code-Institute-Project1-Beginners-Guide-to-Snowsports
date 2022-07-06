@@ -68,6 +68,9 @@ body{
 .content-box *{
     font-family:kanit, sans-serif;
 }
+#page2-content{
+    height:1200px;
+}
 
 /*style for the video element*/
 #video{
@@ -76,7 +79,7 @@ body{
     margin-left:10%;
     margin-right:10%;
 }
-iframe{
+#vid{
     margin-top:50px;
 }
 
