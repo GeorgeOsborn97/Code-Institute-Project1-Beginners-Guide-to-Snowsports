@@ -124,10 +124,9 @@ iframe{
         max-height:200px;
     }
     #social-links li{
-        font-size:100%;
-        display:inline;
-        margin-left:10%;
-        margin-right:10%;
-        text-align:center;
+       
+        margin-left:5%;
+        margin-right:5%;
+        
     }
 }
