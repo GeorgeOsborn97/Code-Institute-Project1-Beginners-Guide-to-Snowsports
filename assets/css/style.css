@@ -72,6 +72,11 @@ body{
     height:1200px;
 }
 
+/*style for the form boxes in page 4*/
+form input{
+    display:inline;
+}
+
 /*style for the video element*/
 #video{
     height:fit-content;
@@ -82,8 +87,6 @@ body{
 #vid{
     margin-top:50px;
 }
-
-
 
 /*style of the footer and the social links contained within.*/
 #social-links{
@@ -127,12 +130,18 @@ body{
         max-height:200px;
     }
     #social-links li{
-       
         margin-left:5%;
-        margin-right:5%;
-       
-    /*Responsive backgrounds to be applied across pages on mobile devices*/    
+        margin-right:5%;    
     }
+    form input{
+        width:50%;
+        margin-right:50%;
+    }
+    #textbox{
+        width:100%;
+    }
+
+    /*Responsive backgrounds to be applied across pages on mobile devices*/ 
     body{
         background-image:none;
     }
