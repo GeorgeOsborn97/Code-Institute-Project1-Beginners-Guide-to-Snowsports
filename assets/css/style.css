@@ -2,14 +2,13 @@
 @import url('https://fonts.googleapis.com/css2?family=Kanit:wght@300;400&family=Lato:wght@300&family=Oswald&display=swap');
 
 body{
-    background-image:url("../images/background-mountain.jpg");
+    background-image:url("../images/background-mountain-picture2.jpg");
     background-repeat:no-repeat;
     max-width:100vw;
     min-height:100vh;
     background-size:cover;
     overflow-x:hidden;
     margin:0;
-    
     
 }
 
@@ -69,7 +68,7 @@ body{
     margin-left:20%;
     float:none;
     background-color:aliceblue;
-    height:800px; 
+    min-height:800px; 
     max-width:750px;  
 }
 .content-box *{
@@ -79,11 +78,18 @@ body{
     margin-right:10%;
     margin-left:10%;
 }
-#page2-content{
-    height:1200px;
-}
 #page1-content{
-    height:1200px;
+    height:fit-content;
+}
+#page2-content{
+    height:fit-content;
+}
+#page3-content{
+    height:fit-content;
+}
+/*styles for text content held within the field set*/
+em{
+    font-size:120%;
 }
 
 /*style for the form boxes in page 4*/
@@ -113,6 +119,8 @@ form button:hover{
     display:inline;
     margin-left:10%;
     margin-right:10%;
+    margin-bottom:20px;
+    padding-bottom:20px;
 }
 #vid{
     margin-top:50px;
@@ -223,5 +231,8 @@ form button:hover{
         margin:0;   
     }
 
+   
 }
 
+
+ 
