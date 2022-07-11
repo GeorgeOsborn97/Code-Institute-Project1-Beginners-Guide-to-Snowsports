@@ -8,6 +8,7 @@ body{
     min-height:100vh;
     background-size:cover;
     overflow-x:hidden;
+    overflow-y:scroll;
     margin:0;
     
 }
@@ -61,6 +62,24 @@ body{
 #title a:hover{
     color:aliceblue;
 }
+
+#goal{
+    display:inline-block;
+    float:left;
+    width:250px;
+}
+#me{
+    position:relative;
+    float:right;
+    width:200px;
+    height:fit-content;
+}
+#faq{
+    clear:both;
+    position:static;
+}
+
+
 
 /*Style for the <fieldset> containing the bulk of the content for the home page*/
 .content-box{
@@ -146,7 +165,10 @@ form button:hover{
 #vid{
     margin-top:50px;
 }
-
+#vid-header{
+    margin-top:100px;
+    margin-bottom:0;
+}
 /*style of the footer and the social links contained within.*/
 #social-links{
     height:fit-content;
@@ -191,6 +213,10 @@ form button:hover{
     .nav-bar li{
         margin-right:10px;
         font-size:70%;
+    }
+    #me{
+        float:none;
+        display:inline-block;
     }
     iframe{
         max-height:200px;
@@ -256,7 +282,27 @@ form button:hover{
         margin:0;   
     }
 
-   
+   /*Style for the brand links*/
+    .logos img{
+       display:inline;
+       padding-right:5pxpx;
+    }
+    #decathlon{
+       width:150px;
+       height:50px;
+    }
+    #elis{
+       width:100px;
+       height:50px;
+    }
+   .brands{
+       width:40px;
+       height:33px;
+    }
+    #vans{
+       margin-left:5px;
+    }
+
 }
 
 
