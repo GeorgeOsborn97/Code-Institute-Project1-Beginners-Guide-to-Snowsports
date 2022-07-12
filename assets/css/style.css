@@ -65,15 +65,12 @@ body{
 }
 
 #goal{
-    float:left;
-    width:250px;
+    width:80%;
+    margin-left:10%;
+    margin-right:10%;
 }
-#me{
-    position:relative;
-    float:right;
-    width:200px;
-    height:fit-content;
-}
+
+
 #faq{
     clear:both;
     position:static;
