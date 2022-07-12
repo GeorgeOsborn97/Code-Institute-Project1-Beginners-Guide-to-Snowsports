@@ -121,19 +121,23 @@ em{
     padding-right:20px;
 }
 #decathlon{
-    width:300px;
-    height:100px;
+    width:280px;
+    height:80px;
 }
 #elis{
-    width:200px;
-    height:100px;
+    width:180px;
+    height:80px;
+}
+#m-warehouse{
+    width:180px;
+    height:80px;
 }
 .brands{
-    width:120px;
-    height:100px;
+    width:110px;
+    height:80px;
 }
 #vans{
-    margin-left:15px;
+    margin-left:25px;
 }
 
 /*style for the form boxes in page 4*/
@@ -153,17 +157,19 @@ textarea{
 form button{
     font-size:larger;
     margin-right:5%;
+    border-style:none;
+    border-radius:10px;
+
 }
 form button:hover{
     transform:scale(2);
     color:rgb(0, 87, 128);
     clear:both;
     border-style:none;
-    border-width:1px;
     border-radius:10px;
 }
 /*style for the video element*/
-#video{
+.video{
     height:fit-content;
     display:inline;
     margin-left:10%;
@@ -188,6 +194,7 @@ form button:hover{
     display:inline-block;
     text-align:center;
     max-height:fit-content;
+    
 }
 #social-links ul{
     
@@ -294,7 +301,7 @@ form button:hover{
    /*Style for the brand links*/
     .logos img{
        display:inline;
-       padding-right:5pxpx;
+       padding-right:5px;
     }
     #decathlon{
        width:150px;
@@ -303,6 +310,10 @@ form button:hover{
     #elis{
        width:100px;
        height:50px;
+    }
+    #m-warehouse{
+        width:100px;
+        height:50px;
     }
    .brands{
        width:40px;
