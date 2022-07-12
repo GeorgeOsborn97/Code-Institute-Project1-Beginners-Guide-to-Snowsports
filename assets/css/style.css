@@ -75,8 +75,12 @@ body{
     clear:both;
     position:static;
 }
-
-
+#faq li{
+    list-style:none;
+}
+#essentials li{
+    list-style: none;
+}
 
 /*Style for the <fieldset> containing the bulk of the content for the home page*/
 .content-box{
