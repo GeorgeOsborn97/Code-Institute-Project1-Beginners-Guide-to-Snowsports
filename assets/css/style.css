@@ -94,6 +94,25 @@ body{
     margin-right:10%;
     margin-left:10%;
 }
+
+/*details inside the field set*/
+
+summary::marker {
+    content: '\f7c9' ' ';
+    font-family: 'Font Awesome 6 Free';
+    font-weight: 700;
+  }
+  details[open] > summary::marker{
+    content: '\e4dc' ' ';
+    font-family: 'Font Awesome 6 Free';
+    font-weight: 700;
+  }
+  details > summary:hover{
+    transform:scale(1.1);
+  }
+
+/*page specific height styling*/
+
 #page1-content{
     height:fit-content;
 }
@@ -105,6 +124,7 @@ body{
 }
 #page4-content{
     height:fit-content;
+    min-height:550px;
 }
 
 /*styles for text content held within the field set*/
@@ -117,6 +137,7 @@ em{
     display:inline;
     padding-right:20px;
 }
+
 #decathlon{
     width:280px;
     height:80px;
@@ -129,9 +150,15 @@ em{
     width:180px;
     height:80px;
 }
+.clothing:hover{
+    transform:scale(1.2);
+}
 .brands{
     width:110px;
     height:80px;
+}
+.brands:hover{
+    transform:scale(1.2);
 }
 #vans{
     margin-left:25px;
@@ -191,12 +218,10 @@ form button:hover{
     display:inline-block;
     text-align:center;
     max-height:fit-content;
-    
+    margin-top:10%;
 }
 #social-links ul{
-    
     clear:both;
-    
     padding-left:25%;
     padding-right:25%;
 }
