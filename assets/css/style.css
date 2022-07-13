@@ -113,6 +113,7 @@ summary::marker {
   }
   details > summary:hover{
     transform:scale(1.1);
+    color:rgb(25, 153, 212);
   }
 
 /*page specific height styling*/
@@ -352,7 +353,7 @@ form button:hover{
 @media screen and (max-width:950px){
 
     #title{
-        font-size:110%;
+        font-size:120%;
     }
     .nav-bar li{
         margin-right:10px;
