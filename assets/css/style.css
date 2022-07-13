@@ -246,18 +246,19 @@ form button:hover{
 }
 
 /*responsive elements for phone and tablets*/
-/*phone styling*/
-@media screen and (max-width:950px){
+
+/*tablet*/
+@media screen and (max-width:1200px){
 
     #title{
-        font-size:110%;
+        font-size:150%;
     }
     .nav-bar li{
-        margin-right:10px;
-        font-size:70%;
+        margin-right:20px;
+        font-size:90%;
     }
     iframe{
-        max-height:200px;
+        max-height:300px;
     }
     #social-links ul{
         width:50%;
@@ -268,12 +269,38 @@ form button:hover{
        
     }
     form input{
-        width:50%;
-        margin-right:50%;
+        width:40%;
+        margin-right:60%;
     }
     #textbox{
         width:100%;
     }
+
+    /*Style for the brand links*/
+    .logos img{
+        display:inline;
+        padding-right:5px;
+     }
+     #decathlon{
+        width:160px;
+        height:65px;
+     }
+     #elis{
+        width:90px;
+        height:65px;
+     }
+     #m-warehouse{
+         width:90px;
+         height:65px;
+     }
+    .brands{
+        width:60px;
+        height:45px;
+        padding-right:10px;
+     }
+     #vans{
+        margin-left:5px;
+     }
 
     /*Responsive backgrounds to be applied across pages on mobile devices*/ 
     body{
@@ -319,33 +346,79 @@ form button:hover{
         overflow-x:hidden;
         margin:0;   
     }
-
-   /*Style for the brand links*/
-    .logos img{
-       display:inline;
-       padding-right:5px;
-    }
-    #decathlon{
-       width:125px;
-       height:50px;
-    }
-    #elis{
-       width:80px;
-       height:50px;
-    }
-    #m-warehouse{
-        width:80px;
-        height:50px;
-    }
-   .brands{
-       width:40px;
-       height:33px;
-    }
-    #vans{
-       margin-left:5px;
-    }
-
 }
 
+/*phone styling*/
+@media screen and (max-width:950px){
 
- 
+    #title{
+        font-size:110%;
+    }
+    .nav-bar li{
+        margin-right:10px;
+        font-size:70%;
+    }
+    iframe{
+        max-height:200px;
+    }   
+    form input{
+        width:50%;
+        margin-right:50%;
+    }
+    /*Style for the brand links*/
+   
+     #decathlon{
+        width:125px;
+        height:50px;
+     }
+     #elis{
+        width:80px;
+        height:50px;
+     }
+     #m-warehouse{
+         width:80px;
+         height:50px;
+     }
+    .brands{
+        width:40px;
+        height:33px;
+     }
+     #vans{
+        margin-left:5px;
+     }   
+}
+@media screen and (max-width:750px){
+    .nav-bar li{
+        margin-right:5px;
+        font-size:50%;
+        border-width:2px;
+    }
+    iframe{
+        max-height:180px;
+    }
+    #social-links li{
+        margin-left:5%;
+        margin-right:5%;
+        font-size:100%;
+    }
+    /*Style for the brand links*/
+     #decathlon{
+        width:80px;
+        height:40px;
+     }
+     #elis{
+        width:60px;
+        height:40px;
+     }
+     #m-warehouse{
+         width:60px;
+         height:40px;
+     }
+    .brands{
+        width:35px;
+        height:30px;
+     }
+     #vans{
+        margin-left:2px;
+     }   
+}
