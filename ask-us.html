@@ -15,52 +15,51 @@
     <!--The header element simply contains the webite title/logo as well as the navigation links to allow users to go between pages on the site.-->
     <header id="nav-logo">
         <!--The Navigation links-->
-        <nav class="nav-bar">
-            <ul>
-                <li><a href="index.html">Home</a></li>
-                <li><a href="getting-started.html">Getting Started</a></li>
-                <li><a href="what-to-buy.html">What to buy?</a></li>
-                <li class="active"><a href="ask-us.html">Ask us?</a></li>
-            </ul>
-        </nav>
+        <details class="nav-menu">
+            <summary class="nav-icon"><i class="fa-solid fa-bars"></i></summary>
+                <nav class="nav-bar">
+                    <ul>
+                        <li><a href="index.html">Home</a></li>
+                        <li><a href="getting-started.html">Getting Started</a></li>
+                        <li><a href="what-to-buy.html">What to buy?</a></li>
+                        <li class="active"><a href="ask-us.html">Ask us?</a></li>
+                    </ul>
+                </nav>
+        </details>
         <!--Title/logo-->
         <h1 id="title">
            <a href="index.html">Your Snowsports Guide <i class="fa-solid fa-snowflake"></i></a>
         </h1>
     </header>
-
     <!--The main portion of informarion is stored within the fieldset element, this first page contains common FAQ's amd their answers.-->
-
     <fieldset class="content-box" id="page4-content">
         <section id="intro">
             <div>
-            <h3>Got a question?</h3>
-            <p>
-                If you haven't found the answer you were looking for, or have a specific question in mind.
-                Please fill out the small form below and I will get back to you as soon as I am able. <br>
-                I apologies for slower replies on powder days.
-            </p>
+               <h3>Got a question?</h3>
+               <p>
+                   If you haven't found the answer you were looking for, or have a specific question in mind.
+                   Please fill out the small form below and I will get back to you as soon as I am able. <br>
+                   I apologies for slower replies on powder days.
+               </p>
             </div>
         </section>
         <section>
             <div>
-            <form id="questionaire" action="https://formdump.codeinstitute.net/" method="post">
-                <label for="name">Name:</label>
-                <input id="name" name="name" type="text" placeholder="George Osborn">
-                <label for="email">Email address:</label>
-                <input id="email" name="email" type="email" placeholder="G.Osborn@email.com">
-                <label for="topic">Topic:</label>
-                <input id="topic" name="topic" type="text" placeholder="e.g. Lessons">
-                <label for="textbox">What would you like to know?</label>
-                <textarea id="textbox" name="question" cols="100" rows="10">Type your questions here.</textarea>
-                <button type="submit"><i class="fa-solid fa-paper-plane"></i></button>
-                <button type="reset"><i class="fa-solid fa-rotate"></i></button>
-            </form>
+              <form id="questionaire" action="https://formdump.codeinstitute.net/" method="post">
+                  <label for="name">Name:</label>
+                  <input id="name" name="name" type="text" placeholder="George Osborn" required>
+                  <label for="email">Email address:</label>
+                  <input id="email" name="email" type="email" placeholder="G.Osborn@email.com" required>
+                  <label for="topic">Topic:</label>
+                  <input id="topic" name="topic" type="text" placeholder="e.g. Lessons" required>
+                  <label for="textbox">What would you like to know?</label>
+                  <textarea id="textbox" name="question" cols="100" rows="10" required>Type your questions here.</textarea>
+                  <button type="submit"><i class="fa-solid fa-paper-plane"></i></button>
+                  <button type="reset"><i class="fa-solid fa-rotate"></i></button>
+              </form>
             </div>          
         </section>
     </fieldset>
-    
-
     <footer id="social-links">
         <ul>
             <li><a href="https://facebook.com" target="_blank" rel="noopener" aria-label="Link to Facebooks homepage that opens in a new tab"><i class="fa-brands fa-facebook"></i></a></li>
@@ -69,6 +68,5 @@
             <li><a href="https://youtube.com" target="_blank" rel="noopener" aria-label="Link to youtubes homepage that opens in a new tab"><i class="fa-brands fa-youtube"></i></a></li>
         </ul>
     </footer>
-    
 </body>
 </html>

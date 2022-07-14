@@ -14,6 +14,12 @@ body{
     background-color: rgba(181, 205, 224, 0.466);
 }
 
+#empty-space{
+    height:130px;
+    width:100vw;
+    margin-top:2px;
+    background-image:url("../images/bottom-background.png");
+}
 /*Styling for the header element and those elements nested within including the nav and h2 elements*/
 /*general styling for the nav bar*/
 #nav-logo{
@@ -23,8 +29,27 @@ body{
     margin:0;
     padding:0;
     float:left;
-    
 }
+
+.nav-icon{
+    margin-left:5%;
+    padding-top:5%;
+    font-size:50px;
+}
+
+.nav-icon::marker {
+    content:none;
+  }
+
+  .nav-menu[open] > summary::marker {
+    content:none;
+  }
+
+.nav-menu > summary:hover{
+    color:aliceblue;
+    transform:none;
+  }
+
 /*style for the list elemets containing the <a> that will be used to move through the pages*/
 .nav-bar li{
     list-style-type:none;  
@@ -37,10 +62,12 @@ body{
     border-radius:10px;
     padding:4px;
 }
+
 .nav-bar a{
     text-decoration:none;
     color:black;
 }
+
 /*responsive styling for nav elements*/
 .nav-bar a:hover{
     text-decoration:underline solid black;
@@ -56,10 +83,12 @@ body{
     margin-left:40px;
     font-family:kanit, sans-serif;
 }
+
 #title a{
     text-decoration:none;
     color:black;
 }
+
 #title a:hover{
     color:aliceblue;
 }
@@ -70,14 +99,19 @@ body{
     margin-right:10%;
 }
 
-
 #faq{
     clear:both;
     position:static;
 }
+
+#faq ul{
+    padding-right:40px;
+}
+
 #faq li{
     list-style:none;
 }
+
 #essentials li{
     list-style: none;
 }
@@ -91,42 +125,51 @@ body{
     min-height:650px; 
     max-width:750px;  
 }
+
 .content-box *{
     font-family:kanit, sans-serif;
 }
+
 #intro{
     margin-right:10%;
     margin-left:10%;
 }
 
 /*details inside the field set*/
-
 summary::marker {
     content: '\f7c9' ' ';
     font-family: 'Font Awesome 6 Free';
     font-weight: 700;
   }
+
   details[open] > summary::marker{
     content: '\e4dc' ' ';
     font-family: 'Font Awesome 6 Free';
     font-weight: 700;
   }
+
   details > summary:hover{
-    transform:scale(1.1);
+    transform:scale(1.01);
     color:rgb(25, 153, 212);
   }
 
-/*page specific height styling*/
+  details[open]{
+    padding-bottom:25px;
+  }
 
+/*page specific height styling*/
 #page1-content{
     height:fit-content;
 }
+
 #page2-content{
     height:fit-content;
 }
+
 #page3-content{
     height:fit-content;
 }
+
 #page4-content{
     height:fit-content;
     min-height:550px;
@@ -151,20 +194,25 @@ em{
     width:180px;
     height:80px;
 }
+
 #m-warehouse{
     width:180px;
     height:80px;
 }
+
 .clothing:hover{
     transform:scale(1.2);
 }
+
 .brands{
     width:110px;
     height:80px;
 }
+
 .brands:hover{
     transform:scale(1.2);
 }
+
 #vans{
     margin-left:25px;
 }
@@ -177,26 +225,29 @@ form input{
     border-radius:10px; 
     background-color: aliceblue;
 }
+
 textarea{
     border-style:solid;
     border-width:2px; 
     border-radius:10px;
     background-color:rgba(240, 248, 255, 0.815);
 }
+
 form button{
     font-size:larger;
     margin-right:5%;
     border-style:none;
     border-radius:10px;
-
 }
+
 form button:hover{
-    transform:scale(2);
+    transform:scale(1.5);
     color:rgb(0, 87, 128);
     clear:both;
     border-style:none;
     border-radius:10px;
 }
+
 /*style for the video element*/
 .video{
     height:fit-content;
@@ -206,13 +257,16 @@ form button:hover{
     margin-bottom:20px;
     padding-bottom:20px;
 }
+
 #vid{
     margin-top:50px;
 }
+
 #vid-header{
-    margin-top:100px;
+    margin-top:50px;
     margin-bottom:0;
 }
+
 /*style of the footer and the social links contained within.*/
 #social-links{
     height:fit-content;
@@ -223,13 +277,14 @@ form button:hover{
     display:inline-block;
     text-align:center;
     max-height:fit-content;
-    margin-top:10%;
 }
+
 #social-links ul{
     clear:both;
     padding-left:25%;
     padding-right:25%;
 }
+
 #social-links li{
     list-style-type:none;  
     margin-right:0;
@@ -238,41 +293,55 @@ form button:hover{
     padding:0;
     margin-left:10%;
     margin-right:10%;
-    display:inline;
-    
+    display:inline;  
 }
+
 #social-links a{
     color:white;
     text-decoration:none;
 }
 
+
+#social-links i:hover{
+    transform:scale(1.2);
+}
 /*responsive elements for phone and tablets*/
 
 /*tablet*/
 @media screen and (max-width:1200px){
 
     #title{
-        font-size:150%;
+        font-size:200%;
     }
+
     .nav-bar li{
         margin-right:20px;
-        font-size:90%;
+        font-size:130%;
     }
+
+    .nav-icon{
+        font-size:25px;
+    }
+    
+
     iframe{
         max-height:300px;
     }
+
     #social-links ul{
         width:50%;
     }
+
     #social-links li{
         margin-left:5%;
-        margin-right:5%;
-       
+        margin-right:5%; 
     }
+
     form input{
         width:40%;
         margin-right:60%;
     }
+
     #textbox{
         width:100%;
     }
@@ -282,23 +351,28 @@ form button:hover{
         display:inline;
         padding-right:5px;
      }
+
      #decathlon{
         width:160px;
         height:65px;
      }
+
      #elis{
         width:90px;
         height:65px;
      }
+
      #m-warehouse{
          width:90px;
          height:65px;
      }
+
     .brands{
         width:60px;
         height:45px;
         padding-right:10px;
      }
+
      #vans{
         margin-left:5px;
      }
@@ -307,10 +381,12 @@ form button:hover{
     body{
         background-image:none;
     }
+
     .content-box{
         margin-left:5%;
         margin-right:5%;
     }
+
     #home-page{
         background-image:url("../images/background-mountain-page1.jpg");
         background-repeat:no-repeat;
@@ -320,6 +396,7 @@ form button:hover{
         overflow-x:hidden;
         margin:0;   
     }
+
     #page2{
         background-image:url("../images/background-mountain-page2.jpg");
         background-repeat:no-repeat;
@@ -329,6 +406,7 @@ form button:hover{
         overflow-x:hidden;
         margin:0;   
     }
+
     #page3{
         background-image:url("../images/background-mountain-page3.jpg");
         background-repeat:no-repeat;
@@ -338,6 +416,7 @@ form button:hover{
         overflow-x:hidden;
         margin:0;   
     }
+
     #page4{
         background-image:url("../images/background-mountain-page4.jpg");
         background-repeat:no-repeat;
@@ -355,70 +434,94 @@ form button:hover{
     #title{
         font-size:120%;
     }
+
     .nav-bar li{
         margin-right:10px;
-        font-size:70%;
+        font-size:100%;
     }
+
+    .nav-icon{
+        font-size:25px;
+    }
+
     iframe{
         max-height:200px;
-    }   
+    }  
+
     form input{
         width:50%;
         margin-right:50%;
     }
+
     /*Style for the brand links*/
-   
      #decathlon{
         width:125px;
         height:50px;
      }
+
      #elis{
         width:80px;
         height:50px;
      }
+
      #m-warehouse{
          width:80px;
          height:50px;
      }
+
     .brands{
         width:40px;
         height:33px;
      }
+
      #vans{
         margin-left:5px;
      }   
 }
+
 @media screen and (max-width:750px){
+    
     .nav-bar li{
         margin-right:5px;
-        font-size:50%;
+        font-size:75%;
         border-width:2px;
     }
+
+    #nav-icon{
+        font-size:25px;
+    }
+
     iframe{
         max-height:180px;
     }
+
     #social-links li{
         margin-left:5%;
         margin-right:5%;
         font-size:100%;
     }
+
     /*Style for the brand links*/
      #decathlon{
         width:80px;
         height:40px;
      }
+
      #elis{
         width:60px;
         height:40px;
      }
+
      #m-warehouse{
          width:60px;
          height:40px;
      }
+
     .brands{
         width:35px;
         height:30px;
      }
+
      #vans{
         margin-left:2px;
      }   
