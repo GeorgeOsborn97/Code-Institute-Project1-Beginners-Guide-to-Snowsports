@@ -6,28 +6,28 @@
 [Find a link to the deployed site here:](https://georgeosborn97.github.io/Code-Institute-Project1-Beginners-Guide-to-Snowsports/)
 
 ## contents:
-1. [User experiance](#User-experiance:)
-   - [Mockup desings](#Simple-Initial-design-plans:)
-2. [Features](#Features:)
-   - [The background image and the general formatting](#The-background-image-and-the-general-formatting:)
-   - [Navigation bar](#Navigation-bar:)
-   - [Information formatting](#Neatly-formatted-information:)
-   - [Video/map](#Video/map:)
-   - [Social links](#Social-links:)
-   - [Brand links](#Brand-links:)
-   - [User form](#Ask-us-form:)
-3. [Technology that was utilised](#Technology-that-was-utilised:)   
-   - [Languages](#Languages:)
-   - [External assets](#external-assets-utilised:)
-4. [Testing](#testing:)  
-   - [HTML W3C Validation](#HTML-W3C-validation:)
-   - [CSS Jigsaw validation](#Jigsaw-validation:)
-   - [Lighthouse](#Lighthouse:)
-   - [Desktop results](#Desktop-results:)
-   - [Mobile results](#Mobile-results:)
-   - [Manual testing](#Manual-testing:)
-   - [Device testing](#Device-testing:)
-   - [user feedback](#User-feedback:)
+1. [User experiance](#user-experiance)
+   - [Mockup desings](#simple-initial-design-plans)
+2. [Features](#features)
+   - [The background image and the general formatting](#the-background-image-and-the-general-formatting)
+   - [Navigation bar](#navigation-bar)
+   - [Information formatting](#neatly-formatted-information)
+   - [Video/map](#videomap)
+   - [Social links](#social-links)
+   - [Brand links](#brand-links)
+   - [User form](#ask-us-form)
+3. [Technology that was utilised](#technology-that-was-utilised)   
+   - [Languages](#languages)
+   - [External assets](#external-assets-utilised)
+4. [Testing](#testing)  
+   - [HTML W3C Validation](#html-w3c-validation)
+   - [CSS Jigsaw validation](#jigsaw-validation)
+   - [Lighthouse](#lighthouse)
+   - [Desktop results](#desktop-results)
+   - [Mobile results](#mobile-results)
+   - [Manual testing](#manual-testing)
+   - [Device testing](#device-testing)
+   - [user feedback](#user-feedback)
 ___
 ## User experiance:
 ### What I wanted to achieve:
@@ -133,12 +133,17 @@ ___
 ![ask us? mobile results](assets/readme-images/page4-mobile-results.png)
 ### Manual Testing:
 #### Device testing:
-After the initial deployment these are the bugs taht need addressing:
-   - Brand logos not showing on either desktop or mobile.
-   - Icons for clapsable text are the default arrows on mobile
-   - On mobile the nav bar icon is now present when it should not be.
-   - on mobile when the nav bar is selected a blue border is visible.
-   - when the page is loaded on mobile the screen width is ok, however if you attempt to zoom out or scroll to the right, the image stops abrubtly and is a margin with the background colour is visible on the right.
+After the initial deployment these are the bugs that need addressing:
+   1. Brand logos not showing on either desktop or mobile.
+      - This bug was due to an error in the pathway to the images, with that clear the images loaded fine
+   2. Icons for clapsable text are the default arrows on mobile
+      - This issue appears to only be a problem for IOS, the icons load fine on Android. Issue still needs addressing on IOS
+   3. On mobile the nav bar icon is now present when it should not be.
+      - This issue is also only on IOS and still requires a fix.
+   4. on mobile when the nav bar is selected a blue border is visible.
+      - This is also an IOS issue that requires a fix.
+   5. when the page is loaded on mobile the screen width is ok, however if you attempt to zoom out or scroll to the right, the image stops abrubtly and is a margin with the background colour is visible on the right.
+      - This issue was due to the width of the h1 element, the width was set to 90vw and this appears to of solved this problem.
 #### User feedback:
 * 
 *
