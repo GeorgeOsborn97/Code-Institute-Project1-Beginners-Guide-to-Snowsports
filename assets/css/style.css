@@ -331,6 +331,24 @@ form button:hover{
     .nav-icon{
         font-size:25px;
     }
+    /*attempted bug fixes for the nav icon*/
+    .nav-icon::marker {
+        content:none;
+      }
+    
+      .nav-menu[open] > summary::marker {
+        content:none;
+      }
+    
+    .nav-menu > summary:hover{
+        color:aliceblue;
+        transform:none;
+      }
+    
+      .nav-menu[open] > summary{
+        color:aliceblue;
+        transform:none;
+      }
     
 
     iframe{
@@ -435,6 +453,28 @@ form button:hover{
         overflow-x:hidden;
         margin:0;   
     }
+/*attempted bug fix for detail icons in the fieldset*/
+    summary::marker {
+        content: '\f7c9' ' ';
+        font-family: 'Font Awesome 6 Free';
+        font-weight: 700;
+      }
+    
+      details[open] > summary::marker{
+        content: '\e4dc' ' ';
+        font-family: 'Font Awesome 6 Free';
+        font-weight: 700;
+      }
+    
+      details > summary:hover{
+        transform:scale(1.01);
+        color:rgb(25, 153, 212);
+      }
+    
+      details[open]{
+        padding-bottom:25px;
+      }
+    
 }
 
 /*phone styling*/
@@ -452,6 +492,25 @@ form button:hover{
     .nav-icon{
         font-size:25px;
     }
+/*attempted bug fixes for the nav icon*/
+    .nav-icon::marker {
+        content:none;
+      }
+    
+      .nav-menu[open] > summary::marker {
+        content:none;
+      }
+    
+    .nav-menu > summary:hover{
+        color:aliceblue;
+        transform:none;
+      }
+    
+      .nav-menu[open] > summary{
+        color:aliceblue;
+        transform:none;
+      }
+    
 
     iframe{
         max-height:200px;
@@ -499,6 +558,25 @@ form button:hover{
     #nav-icon{
         font-size:25px;
     }
+/*attempted bug fixes for the nav icon*/
+    .nav-icon::marker {
+        content:none;
+      }
+    
+      .nav-menu[open] > summary::marker {
+        content:none;
+      }
+    
+    .nav-menu > summary:hover{
+        color:aliceblue;
+        transform:none;
+      }
+    
+      .nav-menu[open] > summary{
+        color:aliceblue;
+        transform:none;
+      }
+    
 
     iframe{
         max-height:180px;
