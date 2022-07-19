@@ -84,7 +84,7 @@ body{
 /*Style added for the title/logo of the page*/
 #title{
     float:left;
-    width:100%;
+    width:90vw;
     margin-left:40px;
     font-family:kanit, sans-serif;
 }
@@ -497,7 +497,7 @@ form button:hover{
     #nav-icon{
         font-size:25px;
     }
-    
+
     iframe{
         max-height:180px;
     }
