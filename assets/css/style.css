@@ -50,6 +50,11 @@ body{
     transform:none;
   }
 
+  .nav-menu[open] > summary{
+    color:aliceblue;
+    transform:none;
+  }
+
 /*style for the list elemets containing the <a> that will be used to move through the pages*/
 .nav-bar li{
     list-style-type:none;  
