@@ -162,6 +162,10 @@ summary::marker {
     padding-bottom:25px;
   }
 
+  #essentials ul{
+    padding-right:40px;
+  }
+
 /*page specific height styling*/
 #page1-content{
     height:fit-content;
