@@ -23,28 +23,56 @@ placeholder image
 
 use wireframes here (example design)
 
-## features how we use these features to achieve this goal
-1. this is where we can use screen shots to highlight these features 
-2.
-3.
+## features 
+### how these help achieve the above goals:
+1. Navigation bar 
+2. striking back ground image
+3. clear container of information -
+  * Opening paragraph in each page
+  * Clapsable blocks of information
+4. video/map 
+5. social links
+6. links to external sites that have relevence
+7. ask us form
 
 ## tech used, what why how it helped
-1. simple list here with explaniations
-2.
-3.
+* languages
+1. HTML5
+2. CSS3
+* external tech utilised
+1. GitHub
+2. GitPod
+3. font awesome
+4. google fonts
+5. Uizard
+6. Chrome devtools
+7. W3C HTML validator
+8. Jigsaw CSS validator
 
 ## testing
-1. simple list here with explanations, also incluse screen shots if aplicable. (lighthose, w3c validation)
-2.
-3.
+1. W3C validation
+2. Jigsaw validation
+3. Lighthouse
+
+Manual Testing:
+* name different devices we tested, wht worked what didnt, if things didnt how we plan to fix them.
+* simple questionare for 10 people or so to provide feedback.
+
 
 ## finished product
 screen shots how it works, areas of improvment. known bugs. possible fixes
 
 ## deployment
-1.
-2.
-3.
+1. explain how we deployed the site to GitHub pages
 
 ## credits/acknowledgments
-include links to any outside sources.
+Content:
+1. All code was written by myself no external code was utilised in this webpage. However stackoverflow was used regulary in order to gain a better understanding of how how certain elements interact and best practices for implementation.
+
+2. Youtube video
+3. google map
+4. google fonts
+5. font awsome
+
+Media:
+1. refrence where each image came from
