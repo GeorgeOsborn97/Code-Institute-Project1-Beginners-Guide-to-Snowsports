@@ -133,7 +133,12 @@ ___
 ![ask us? mobile results](assets/readme-images/page4-mobile-results.png)
 ### Manual Testing:
 #### Device testing:
-When the site is uploaded to GitHub pages the site will be tested on mutiple different devices. Bugs will be noted and fixes will be planned.
+After the initial deployment these are the bugs taht need addressing:
+   - Brand logos not showing on either desktop or mobile.
+   - Icons for clapsable text are the default arrows on mobile
+   - On mobile the nav bar icon is now present when it should not be.
+   - on mobile when the nav bar is selected a blue border is visible.
+   - when the page is loaded on mobile the screen width is ok, however if you attempt to zoom out or scroll to the right, the image stops abrubtly and is a margin with the background colour is visible on the right.
 #### User feedback:
 * 
 *
