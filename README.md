@@ -7,7 +7,7 @@ placeholder image
 1.
 2.
 3.
-
+___
 ## User experiance
 ### What I wanted to achieve:
 
@@ -21,15 +21,24 @@ placeholder image
 
 5. The style of the website is consistant throughout all pages.
 
-use wireframes here (example design)
+6. Responsive design allows the site to be easily viewed across multiple devices.
 
-## features 
-### how these help achieve the above goals:
+Page | Mockup example |
+--- | --- |
+Index | ![Desktop mockup of Home page](assets/mockup-images/page1-mockup.png) |
+Getting started | ![Desktop mock up of page 2 "getting strated"](assets/mockup-images/page2-mockup.png) |
+What to buy? | ![Desktop mock up of page 3 "What to buy?"](assets/mockup-images/page3-mockup.png) |
+Ask us | ![Desktop mock up of page 4 "Ask us"](assets/mockup-images/page4-mockup.png) |
+Mobile example | ![Mobile mock up of the home page and page 4 "Ask us"](assets/mockup-images/mobile-mockup.png) |
+___
+## features: 
+### And how these help achieve the above goals:
 1. Navigation bar 
+   - 
 2. striking back ground image
-3. clear container of information -
+3. clear container of information
   * Opening paragraph in each page
-  * Clapsable blocks of information
+  *  Clapsable blocks of information
 4. video/map 
 5. social links
 6. links to external sites that have relevence
