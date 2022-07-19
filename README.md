@@ -7,7 +7,10 @@ placeholder image
 1. [User experiance](##User-experiance:)
    - [Mockup desings](###Simple-Initial-design-plans:)
 2. [Features](##features:)
-   - [Navigation bar](####navigation-bar)
+   - [The background image and the general formatting](###The-background-image-and-the-general-formatting)
+   - [Navigation bar](###navigation-bar)
+   - [Information formatting](###neatly-formatted-information)
+   - [Video/map](###video/map)
 ___
 ## User experiance:
 ### What I wanted to achieve:
@@ -34,22 +37,44 @@ Ask us | ![desktop mock up of page 4 "Ask us"](assets/mockup-images/page4-mockup
 Mobile example | ![mobile mock up of the home page and page 4 "Ask us"](assets/mockup-images/mobile-mockup.png) |
 ___
 ## features: 
-### And how these help achieve the above goals:
-#### Navigation bar 
+### The background image and the general formatting
+   - the background image aims to provides a feeling of warmth and joy due to the striking bright sun that captures the users initial attention.
+   - the image aims to stand out and without distracting from the purpose of the site, its content. The fieldset provides enough difference to draw you to it without conflicting with the image.
+   - the navigation elements at the top of the page are clear yet do not distract from the main text
+![what the user first sees](assets/readme-images/opening-main-img.png)   
+### Navigation bar: 
    - The simple clapsable navigation Icon provides the user a simple and effective way to navigate to the different pages of the site.
    - The styling is consistant throughout all pages and shows clearly which page the user is currently in as well as the repsonisve colour change that clearly highlights user interaction.
    - The main header/logo of the page is also a clickable link as is common place in many websites across the web.
 ![shut navigation bar image](assets/readme-images/shut-navbar.png)
 ![open navigation bar image](assets/readme-images/open-navbar.png)
-
-2. striking back ground image
-3. clear container of information
-  * Opening paragraph in each page
-  *  Clapsable blocks of information
-4. video/map 
+### neatly formatted information
+   - To avoid large portions of text that may confuse the user, all key information is contained within clapsable elements.
+   - the clapsable elements clearly register interaction with a clear colour change and slight size shift. Enough to be visible but not ditracting.
+   - With the large blocks of text hidden the user will be able to more easily find the specific information they seek.
+![shut text block](assets/readme-images/clapsed-text.png)  
+![open text block](assets/readme-images/open-text.png) 
+### video/map 
+   -
+   -
+   -
+![video on home page](assets/readme-images/video-image.png)  
+![map on "getting started"](assets/readme-images/map-image.png) 
 5. social links
+   -
+   -
+   -
+![social links](assets/readme-images/social-footer.png)   
 6. links to external sites that have relevence
+   -
+   -
+   -
+![links to external brands](assets/readme-images/retail-links.png)   
 7. ask us form
+   -
+   -
+   -
+![user form](assets/readme-images/user-form.png)   
 
 ## tech used, what why how it helped
 * languages
