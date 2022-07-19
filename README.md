@@ -3,6 +3,8 @@
 
 "Your Snowsports Guide" was designed to provide valuable and useful infomation for people that are looking to get themselves, friends or family into the world of snowsports. specifically Skiing and Snowboading. Ideally any user will come to the end of the website with their questions answered, their doubts disuaded and a good base of knowledge that will help them on their journey into the world of snowsports.
 
+[Find a link to the deployed site here:](https://georgeosborn97.github.io/Code-Institute-Project1-Beginners-Guide-to-Snowsports/)
+
 ## contents:
 1. [User experiance](##User-experiance:)
    - [Mockup desings](###Simple-Initial-design-plans:)
@@ -143,7 +145,8 @@ All code was written in Gitpod, pushed to GitHub and deployed to GitHub Pages.
 * In order to deploy our site from GitHub to Github pages the stages are as follows.
    - From the repostories page in GitHub select the project that needs to be deployed.
    - go to settings then on the right hand side menu select pages.
-   - within this page go to the souce dropdown and select "main"
+   - within this page go to the souce dropdown and select "main" then select save.
+   - from here the link appears to our deployed site.   
 
 ## credits/acknowledgments
 Content:
