@@ -119,6 +119,7 @@ body{
 }
 
 /*details inside the field set*/
+/*In order to gain a better understanding and to help style the arrow of a summary element I used DilshanKelsen.com*/
 summary::marker {
     content: "\f7c9";
     font-family: "Font Awesome 6 Free";
