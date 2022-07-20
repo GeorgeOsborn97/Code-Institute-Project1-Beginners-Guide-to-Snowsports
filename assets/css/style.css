@@ -139,6 +139,10 @@ summary::marker {
     padding-bottom:25px;
   }
 
+  summary{
+    outline:none !important;
+  }
+
   #essentials ul{
     padding-right:40px;
   }
