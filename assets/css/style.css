@@ -119,15 +119,15 @@ body{
 
 /*details inside the field set*/
 summary::marker {
-    content: '\f7c9' ' ';
-    font-family: 'Font Awesome 6 Free';
-    font-weight: 700;
+    content: '\f7c9' ' ' !important;
+    font-family: 'Font Awesome 6 Free' !important;
+    font-weight: 700 !important;
   }
 
   details[open] > summary::marker{
-    content: '\e4dc' ' ';
-    font-family: 'Font Awesome 6 Free';
-    font-weight: 700;
+    content: '\e4dc' ' ' !important;
+    font-family: 'Font Awesome 6 Free' !important;
+    font-weight: 700 !important;
   }
 
   details > summary:hover{
