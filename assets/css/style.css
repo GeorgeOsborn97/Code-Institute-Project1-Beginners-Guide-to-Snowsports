@@ -139,7 +139,7 @@ summary::marker {
     padding-bottom:25px;
   }
 
-  summary{
+  summary:focus{
     outline:none !important;
   }
 
