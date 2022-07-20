@@ -1,5 +1,6 @@
 /*Imported text font from google fonts - credit goes to Cadson Demak @ Principal design*/
 @import url('https://fonts.googleapis.com/css2?family=Kanit:wght@300;400&family=Lato:wght@300&family=Oswald&display=swap');
+@import url("https://fontawesome.com/icons/person-skiing?s=solid");
 
 body{
     background-image:url("../images/possible-img.jpg");
@@ -87,6 +88,7 @@ body{
     width:90vw;
     margin-left:40px;
     font-family:kanit, sans-serif;
+    margin-right:40px;
 }
 
 #title a{
