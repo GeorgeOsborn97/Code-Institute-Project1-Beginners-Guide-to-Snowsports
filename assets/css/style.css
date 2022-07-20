@@ -98,29 +98,6 @@ body{
     color:aliceblue;
 }
 
-#goal{
-    width:80%;
-    margin-left:10%;
-    margin-right:10%;
-}
-
-#faq{
-    clear:both;
-    position:static;
-}
-
-#faq ul{
-    padding-right:40px;
-}
-
-#faq li{
-    list-style:none;
-}
-
-#essentials li{
-    list-style: none;
-}
-
 /*Style for the <fieldset> containing the bulk of the content for the home page*/
 .content-box{
     margin-right:20%;
@@ -187,6 +164,29 @@ summary::marker {
 /*styles for text content held within the field set*/
 em{
     font-size:120%;
+}
+
+#goal{
+    width:80%;
+    margin-left:10%;
+    margin-right:10%;
+}
+
+#faq{
+    clear:both;
+    position:static;
+}
+
+#faq ul{
+    padding-right:40px;
+}
+
+#faq li{
+    list-style:none;
+}
+
+#essentials li{
+    list-style: none;
 }
 
 /*Style for the brand links*/
@@ -257,7 +257,7 @@ form button:hover{
     border-radius:10px;
 }
 
-/*style for the video element*/
+/*style for the iframe elements*/
 .video{
     height:fit-content;
     display:inline;
