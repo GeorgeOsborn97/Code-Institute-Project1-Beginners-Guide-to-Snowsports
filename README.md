@@ -3,7 +3,7 @@
 
 "Your Snowsports Guide" was designed to provide valuable and useful infomation for people that are looking to get themselves, friends or family into the world of snowsports. specifically Skiing and Snowboading. Ideally any user will come to the end of the website with their questions answered, their doubts disuaded and a good base of knowledge that will help them on their journey into the world of snowsports.
 
-[Find a link to the deployed site here:](https://georgeosborn97.github.io/Code-Institute-Project1-Beginners-Guide-to-Snowsports/)
+Find a link to the deployed site [here:](https://georgeosborn97.github.io/Code-Institute-Project1-Beginners-Guide-to-Snowsports/)
 
 ## contents:
 1. [User experiance](#user-experiance)
