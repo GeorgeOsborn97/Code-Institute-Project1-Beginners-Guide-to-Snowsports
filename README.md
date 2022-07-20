@@ -67,13 +67,13 @@ ___
 ![open navigation bar image](assets/readme-images/open-navbar.png)
 ### Neatly formatted information:
    - To avoid large portions of text that may confuse the user, all key information is contained within clapsable elements.
-   - the clapsable elements clearly register interaction with a clear colour change and slight size shift. Enough to be visible but not ditracting.
+   - the clapsable elements clearly register interaction with a clear colour change and slight size shift. Enough to be visible but not distracting.
    - With the large blocks of text hidden the user will be able to more easily find the specific information they seek.
 ![shut text block](assets/readme-images/clapsed-text.png)  
 ![open text block](assets/readme-images/open-text.png) 
 ### Video/map: 
    - The video in the index is completely user controlled they can choose to view it or not.
-   - The aim of the video is to provide an additional more visual hook to the website that carries on the themes and goals of this site. Get more people into snowsports.
+   - The aim of the video is to provide an additional more visual hook to the website that carries on the themes and goals of this site.
    - The map like the video provides are visual hook, however the purpose of this map is to give additional information regarding a specific topic in page 2.
 ![video on home page](assets/readme-images/video-image.png)  
 ![map on "getting started"](assets/readme-images/map-image.png) 
@@ -143,7 +143,7 @@ After the initial deployment these are the bugs that need addressing:
    4. on mobile when the nav bar is selected a blue border is visible.
       - This is also an IOS issue that requires a fix. 
       - This was fixed by applying an "outline:none !important" to the all summary elements.
-   5. when the page is loaded on mobile the screen width is ok, however if you attempt to zoom out or scroll to the right, the image stops abrubtly and is a margin with the background colour is visible on the right.
+   5. when the page is loaded on mobile the screen width is ok, however if you attempt to zoom out or scroll to the right, the image stops abrubtly and a margin with the background colour is visible on the right.
       - This issue was due to the width of the h1 element, the width was set to 90vw and this appears to of solved this problem.
 #### Bugs still present:
    1. 
@@ -164,7 +164,7 @@ All code was written in Gitpod, pushed to GitHub and deployed to GitHub Pages.
 
 ## credits/acknowledgments
 ### Content:
-- All code was written by myself no external code was utilised in this webpage. However stackoverflow was used regulary in order to gain a better understanding of how certain elements interact and best practices for implementation.
+- All code was written by myself no external code was copied in this webpage. However stackoverflow was used regulary in order to gain a better understanding of how certain elements interact and best practices for implementation. As well as Dilshan Kelsen who helped me to style the arrow in a summary element his site and the specific page can be found [here](https://dilshankelsen.com/style-arrow-of-html-accordion/)
 - All icons are from [Font awesome](https://fontawesome.com/icons)
 - the font used was imported from Google fonts and created by Cadson Demak @ Principal design it can be viewed [here](https://fonts.google.com/specimen/Kanit?preview.text=Your%20Snowsports%20Guide&preview.text_type=custom#standard-styles)
 
