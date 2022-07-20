@@ -3,7 +3,7 @@
 ![full-mockup](assets/mockup-images/full-mockup.png)
 "Your Snowsports Guide" was designed to provide valuable and useful infomation for people that are looking to get themselves, friends or family into the world of snowsports. specifically Skiing and Snowboading. Ideally any user will come to the end of the website with their questions answered, their doubts disuaded and a good base of knowledge that will help them on their journey into the world of snowsports.
 
-Find a link to the deployed site [here:](https://georgeosborn97.github.io/Code-Institute-Project1-Beginners-Guide-to-Snowsports/)
+Find a link to the deployed site [here](https://georgeosborn97.github.io/Code-Institute-Project1-Beginners-Guide-to-Snowsports/)
 
 ## contents:
 1. [User experiance](#user-experiance)
@@ -141,9 +141,13 @@ After the initial deployment these are the bugs that need addressing:
    3. On mobile the nav bar icon is now present when it should not be.
       - This issue is also only on IOS and still requires a fix.
    4. on mobile when the nav bar is selected a blue border is visible.
-      - This is also an IOS issue that requires a fix.
+      - This is also an IOS issue that requires a fix. 
+      - This was fixed by applying an "outline:none !important" to the all summary elements.
    5. when the page is loaded on mobile the screen width is ok, however if you attempt to zoom out or scroll to the right, the image stops abrubtly and is a margin with the background colour is visible on the right.
       - This issue was due to the width of the h1 element, the width was set to 90vw and this appears to of solved this problem.
+#### Bugs still present:
+   1. 
+
 #### User feedback:
 * 
 *
@@ -159,13 +163,15 @@ All code was written in Gitpod, pushed to GitHub and deployed to GitHub Pages.
    - from here the link appears to our deployed site.   
 
 ## credits/acknowledgments
-Content:
-1. All code was written by myself no external code was utilised in this webpage. However stackoverflow was used regulary in order to gain a better understanding of how how certain elements interact and best practices for implementation.
+### Content:
+- All code was written by myself no external code was utilised in this webpage. However stackoverflow was used regulary in order to gain a better understanding of how certain elements interact and best practices for implementation.
+- All icons are from [Font awesome](https://fontawesome.com/icons)
+- the font used was imported from Google fonts and created by Cadson Demak @ Principal design it can be viewed [here](https://fonts.google.com/specimen/Kanit?preview.text=Your%20Snowsports%20Guide&preview.text_type=custom#standard-styles)
 
-2. Youtube video
-3. google map
-4. google fonts
-5. font awsome
+### Media:
+- All images used in this site were taken from Google Images.
+- All credit for the Video in the home page goes to "The Bag o' Tricks" link to his page can be found [here](https://www.youtube.com/channel/UCaEXnwWYRc5ph2QqQQviWlA)
+- Google maps was used for the Map on "getting Started"
 
-Media:
-1. refrence where each image came from
+
+
