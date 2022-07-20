@@ -98,12 +98,14 @@ ___
 * [font awesome](https://fontawesome.com/)
 * [google fonts](https://fonts.google.com/)
 * [Uizard](https://uizard.io/)
+* [amiresponsive](https://ui.dev/amiresponsive)
 * Chrome devtools
 * Google images
 * [W3C HTML validator](https://validator.w3.org/)
 * [Jigsaw CSS validator](https://jigsaw.w3.org/css-validator/)
 ___
 ## testing:
+In order to test responisve elements throughout the development process Chrome Devtools was used frequently.
 ### HTML W3C validation:
    - On the first test, the width was set incorrectly for both iframes in the index and page 2. this was fixed by removing the width="" atribute and using the style="" attribute for the width.
    - Also on the first test there was a highighted error in the iframes where i put a p element between the opening and closing tag. This had to be removed.
@@ -133,6 +135,10 @@ ___
 ![ask us? mobile results](assets/readme-images/page4-mobile-results.png)
 ### Manual Testing:
 #### Device testing:
+This site has been physically tested on:
+   - ASUS ZenBook
+   - Iphone X
+   - Samsung Galaxy S20
 After the initial deployment these are the bugs that need addressing:
    1. Brand logos not showing on either desktop or mobile.
       - This bug was due to an error in the pathway to the images, with that clear the images loaded fine
@@ -147,7 +153,6 @@ After the initial deployment these are the bugs that need addressing:
       - This issue was due to the width of the h1 element, the width was set to 90vw and this appears to of solved this problem.
 #### Bugs still present:
    1. 
-
 #### User feedback:
 * 
 *
@@ -161,7 +166,7 @@ All code was written in Gitpod, pushed to GitHub and deployed to GitHub Pages.
    - go to settings then on the right hand side menu select pages.
    - within this page go to the souce dropdown and select "main" then select save.
    - from here the link appears to our deployed site.   
-
+___
 ## credits/acknowledgments
 ### Content:
 - All code was written by myself no external code was copied in this webpage. However stackoverflow was used regulary in order to gain a better understanding of how certain elements interact and best practices for implementation. As well as Dilshan Kelsen who helped me to style the arrow in a summary element his site and the specific page can be found [here](https://dilshankelsen.com/style-arrow-of-html-accordion/)
@@ -172,6 +177,11 @@ All code was written in Gitpod, pushed to GitHub and deployed to GitHub Pages.
 - All images used in this site were taken from Google Images.
 - All credit for the Video in the home page goes to "The Bag o' Tricks" link to his page can be found [here](https://www.youtube.com/channel/UCaEXnwWYRc5ph2QqQQviWlA)
 - Google maps was used for the Map on "getting Started"
+- The Mock up and wireframes were created using both [amiresponsive](https://ui.dev/amiresponsive) and [Uizard](https://uizard.io/) respectivly.
+___
+## Final thoughts.
+Thank you so much for taking the time to look through this project. As my first solo step into the world of software development I have to say I am quite proud of it. 
+I'd like to say a huge thank you to Marcel my mentor from Code institute who has been invaluable. As well as the whole Code institute team that has set up a fantastic learning enviroment.
 
-
+I look forward to returning to this project in the future when my skills as a developer will allow me to take this project to the next level.
 
