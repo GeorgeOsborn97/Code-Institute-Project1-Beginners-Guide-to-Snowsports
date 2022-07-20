@@ -121,7 +121,7 @@ body{
 summary::marker {
     content: '\f7c9' ' ';
     font-family: 'Font Awesome 6 Free';
-    font-weight: 700 !;
+    font-weight: 700;
   }
 
   details[open] > summary::marker{
