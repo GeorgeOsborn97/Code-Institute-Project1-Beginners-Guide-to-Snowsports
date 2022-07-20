@@ -1,6 +1,5 @@
 /*Imported text font from google fonts - credit goes to Cadson Demak @ Principal design*/
 @import url('https://fonts.googleapis.com/css2?family=Kanit:wght@300;400&family=Lato:wght@300&family=Oswald&display=swap');
-@import url("https://fontawesome.com/icons/person-skiing?s=solid");
 
 body{
     background-image:url("../images/possible-img.jpg");
@@ -121,14 +120,14 @@ body{
 
 /*details inside the field set*/
 summary::marker {
-    content: '\f7c9' ' ';
-    font-family: 'Font Awesome 6 Free';
+    content: "\f7c9";
+    font-family: "Font Awesome 6 Free";
     font-weight: 700;
   }
 
   details[open] > summary::marker{
-    content: '\e4dc' ' ';
-    font-family: 'Font Awesome 6 Free';
+    content: "\e4dc";
+    font-family: "Font Awesome 6 Free";
     font-weight: 700;
   }
 
@@ -541,10 +540,12 @@ form button:hover{
 }
 
 @media screen and (max-width:350px){
-    
     .nav-bar li{
-        margin-right:3px;
+        margin-right:2px;
         font-size:60%;
-        border-width:1.5px;
+        border-width:1px;
+    }
+    .nav-bar{
+        margin-right:5px;
     }
 }
