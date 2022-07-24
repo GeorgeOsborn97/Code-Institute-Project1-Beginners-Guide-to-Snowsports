@@ -74,11 +74,15 @@ body{
 }
 
 /*responsive styling for nav elements*/
+.nav-bar li{
+    background-color: rgba(240, 248, 255, 0.500);
+}
+
 .nav-bar a:hover{
     text-decoration:underline solid black;
 }
 .active{
-    background-color:aliceblue;
+    background-color:aliceblue !important; 
 }
 
 /*Style added for the title/logo of the page*/
