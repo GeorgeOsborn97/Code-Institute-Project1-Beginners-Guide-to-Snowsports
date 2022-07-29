@@ -1,6 +1,6 @@
 # Your Snowsports Guide
 
-![full-mockup](assets/mockup-images/full-mockup.png)
+![full-mockup](assets/readme-images/mockup-images/full-mockup.png)
 "Your Snowsports Guide" was designed to provide valuable and useful infomation for people that are looking to get themselves, friends or family into the world of snowsports. specifically Skiing and Snowboading. Ideally any user will come to the end of the website with their questions answered, their doubts disuaded and a good base of knowledge that will help them on their journey into the world of snowsports.
 
 Find a link to the deployed site [here](https://georgeosborn97.github.io/Code-Institute-Project1-Beginners-Guide-to-Snowsports/)
@@ -47,11 +47,11 @@ ___
 ### Simple initial design plans:
 Page | Mockup example |
 --- | --- |
-Index | ![desktop mockup of Home page](assets/mockup-images/page1-mockup.png) |
-Getting started | ![desktop mock up of page 2 "getting strated"](assets/mockup-images/page2-mockup.png) |
-What to buy? | ![desktop mock up of page 3 "What to buy?"](assets/mockup-images/page3-mockup.png) |
-Ask us | ![desktop mock up of page 4 "Ask us"](assets/mockup-images/page4-mockup.png) |
-Mobile example | ![mobile mock up of the home page and page 4 "Ask us"](assets/mockup-images/mobile-mockup.png) |
+Index | ![desktop mockup of Home page](assets/readme-images/mockup-images/page1-mockup.png) |
+Getting started | ![desktop mock up of page 2 "getting strated"](assets/readme-images/mockup-images/page2-mockup.png) |
+What to buy? | ![desktop mock up of page 3 "What to buy?"](assets/readme-images/mockup-images/page3-mockup.png) |
+Ask us | ![desktop mock up of page 4 "Ask us"](assets/readme-images/mockup-images/page4-mockup.png) |
+Mobile example | ![mobile mock up of the home page and page 4 "Ask us"](assets/readme-images/mockup-images/mobile-mockup.png) |
 ___
 ## Final Product
 ### Page 1 top - Home
