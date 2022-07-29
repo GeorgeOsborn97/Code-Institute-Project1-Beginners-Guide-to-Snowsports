@@ -53,6 +53,22 @@ What to buy? | ![desktop mock up of page 3 "What to buy?"](assets/mockup-images/
 Ask us | ![desktop mock up of page 4 "Ask us"](assets/mockup-images/page4-mockup.png) |
 Mobile example | ![mobile mock up of the home page and page 4 "Ask us"](assets/mockup-images/mobile-mockup.png) |
 ___
+## Final Product
+### Page 1 top - Home
+![Final image of the top of the home page](assets/readme-images/final-images/final-image-page1-top.png)
+### Page 1 bottom - Home
+![Final image of the top of the home page](assets/readme-images/final-images/final-image-page1-bottom.png)
+### Page 2 top - Getting started
+![Final image of the top of the home page](assets/readme-images/final-images/final-image-page2-top.png)
+### Page 2 bottom - Getting started
+![Final image of the top of the home page](assets/readme-images/final-images/final-image-page2-bottom.png)
+### Page 3 top - what to buy?
+![Final image of the top of the home page](assets/readme-images/final-images/final-image-page3-top.png)
+### Page 3 bottom - What to buy?
+![Final image of the top of the home page](assets/readme-images/final-images/final-image-page3-bottom.png)
+### Page 4 - Ask us?
+![Final image of the top of the home page](assets/readme-images/final-images/final-image-page4.png)
+___
 ## Features: 
 ### The background image and the general formatting:
    - the background image aims to provides a feeling of warmth and joy due to the striking bright sun that captures the users initial attention.
@@ -134,6 +150,31 @@ In order to test responisve elements throughout the development process Chrome D
    - Ask us? results
 ![ask us? mobile results](assets/readme-images/page4-mobile-results.png)
 ### Manual Testing:
+#### Feature Testing:
+* Background images: 
+   - To make sure the CSS providing the images worked correctly the previewed site cache was constantly refreshed. 
+   - In order to ensure that all the background images correctly showed on all devices Chrome dev tools was used to simulate different devices.
+* Font awesome icons:
+   - The icons I have selected to show from Font awesome all are cleaerly present when the site is loaded.
+   - The icons linked to the clapsable text held within the fieldset change from a person skiing to a burst when open. All clapsable text was opened and closed to ensure this was present across all clapsable text.
+   - Safari/IOS does not show these changing font awesome icons. I believe this is a issue with IOS as this feature has been tested on mutiple other devices and works as designed.
+* Hover effects:
+   - When the curser is moved over the nav icon and the claspable text they turn white and blue respectively. 
+   - When the navigation items in the nav menu are hovered over they appear underlined.
+   - When the clapsable text, brand icons, social links and submit/refresh buttons are hovered over they increase by a scale of 1.01, 1.05, 1.2 and 1.5 respectively.
+* clapsable text:
+   - The clapsable text stays open after one click and will claspe again after a second click.   
+* Video:
+  - The video does not autoplay when the page is loaded.
+  - when the video is clicked the video plays, it can be paused, started again and can enter and exit full screen.
+* Map:
+  - The map can be zoomed in and out, the highlighted pins can be selected on PC, and a the map can be enlarged to take the user to Googlemaps. 
+  - On mobile when the map is selected Google maps is opened instantly.
+* Ask us:
+  - If no information any information is not entererd the form will not submit.    
+* Internal and External links:
+  - All external links open in a new tab.
+  - All Internal links take the user to the correct page.
 #### Device testing:
 This site has been physically tested on:
    - ASUS ZenBook
@@ -151,21 +192,16 @@ After the initial deployment these are the bugs that need addressing:
       - This was fixed by applying an "outline:none !important" to the all summary elements.
    5. when the page is loaded on mobile the screen width is ok, however if you attempt to zoom out or scroll to the right, the image stops abrubtly and a margin with the background colour is visible on the right.
       - This issue was due to the width of the h1 element, the width was set to 90vw and this appears to of solved this problem.
-#### Bugs still present:
-   1. 
-#### User feedback:
-* 
-*
-*
-___
+   ___
 ## deployment:
 All code was written in Gitpod, pushed to GitHub and deployed to GitHub Pages.
 
-* In order to deploy our site from GitHub to Github pages the stages are as follows.
-   - From the repostories page in GitHub select the project that needs to be deployed.
-   - go to settings then on the right hand side menu select pages.
-   - within this page go to the souce dropdown and select "main" then select save.
-   - from here the link appears to our deployed site.   
+In order to deploy our site from GitHub to Github pages the stages are as follows:
+
+   1. From the repostories page in GitHub select the project that needs to be deployed.
+   2. go to settings then on the right hand side menu select pages.
+   3. within this page go to the souce dropdown and select "main" then select save.
+   4. from here the link appears to our deployed site.   
 ___
 ## credits/acknowledgments
 ### Content:
